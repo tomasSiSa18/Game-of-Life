@@ -22,7 +22,7 @@ public class Game extends JFrame {
         win.establish(this);
 
         //use lookup here
-        IClock clock = new Clock(win);
+        IClock clock = new Clock(win); 
         IWorld world = new World(clock, win);
 
         Properties p = new Properties();
